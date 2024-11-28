@@ -15,4 +15,5 @@ app.get("/addTwoNumber", (req,res)=>{
 });
 
 app.listen(port,()=>{
-console.log("App listening to: "+port)
+console.log("App listening to: "+port);
+})
