@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3001;
+const port = 3003;
  
 app.get('/scan', (req, res) => {
     const url = req.query.url;

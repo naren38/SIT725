@@ -3,67 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Application</title>
+    <title>BrightFuture App</title>
     <!-- Materialize CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/new-styles.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .nav-wrapper {
+            background-color: #ff6f61 !important;
+        }
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #37474f;
+            margin-bottom: 30px;
+        }
+        p.flow-text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem;
+            color: #455a64;
+        }
+        .card-title {
+            font-family: 'Montserrat', sans-serif;
+            color: #ff6f61;
+        }
+        footer {
+            background-color: #b71c1c !important;
+            padding: 25px 0;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <nav class="blue">
+    <nav>
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo">My Web App</a>
+            <a href="#" class="brand-logo">BrightFuture App</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Introduction</a></li>
+                <li><a href="#services">Features</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
- 
+
     <div class="container">
-        <h2 class="center-align">Welcome to My Web Application</h2>
-        <p>This is a simple web application designed using Materialize CSS. The goal is to enhance graphical aspects and improve the overall design of the app.</p>
- 
+        <h2 class="center-align">Shaping Your Future with Technology</h2>
+        <p class="flow-text center-align">Welcome to BrightFuture App, where innovation meets simplicity. Explore tools and solutions designed to help you achieve your goals effortlessly.</p>
+
         <div class="row">
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-content">
-                        <span class="card-title">Feature 1</span>
-                        <p>This is the first feature of the web application.</p>
+                        <span class="card-title">Dynamic Insights</span>
+                        <p>Gain actionable insights with our cutting-edge analytics feature. Stay ahead of the curve.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-content">
-                        <span class="card-title">Feature 2</span>
-                        <p>This is the second feature of the web application.</p>
+                        <span class="card-title">Streamlined Processes</span>
+                        <p>Optimize your workflows with tools tailored for efficiency and productivity.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m4">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-content">
-                        <span class="card-title">Feature 3</span>
-                        <p>This is the third feature of the web application.</p>
+                        <span class="card-title">Seamless Integration</span>
+                        <p>Connect with platforms you already use and enhance your experience seamlessly.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
- 
-    <footer class="blue darken-3 white-text center-align">
-        <p>© 2024 My Web Application | All Rights Reserved</p>
+
+    <footer class="center-align">
+        <p>© 2024 BrightFuture App | Designed to Inspire</p>
     </footer>
- 
+
     <!-- Materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Custom JS -->
-    <script src="js/scripts.js"></script>
+    <script src="js/new-scripts.js"></script>
 </body>
 </html>
- 
-
-
-
