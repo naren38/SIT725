@@ -26,17 +26,17 @@ async function insertData() {
  
         const db = client.db("myDB");
  
-        const collection = db.collection("pizzaMenu");
+        const collection = db.collection("Menu");
  
  
  
         const pizzas = [
  
-            { name: "Margherita", ingredients: ["tomato", "mozzarella", "basil"], price: 8.99 },
+            { name: "ChickenPZ", ingredients: ["chicken", "butter", "pepper"], price: 12.99 },
  
-            { name: "Pepperoni", ingredients: ["tomato", "mozzarella", "pepperoni"], price: 9.99 },
+            { name: "PaneerPZ", ingredients: ["paneer", "cheeze", "pepperoni"], price: 10.99 },
  
-            { name: "Veggie Supreme", ingredients: ["tomato", "bell peppers", "onion", "olives"], price: 10.49 }
+            { name: "cheezPZ", ingredients: ["cheeze", "onion", "vegies"], price: 8.99 }
  
         ];
  
