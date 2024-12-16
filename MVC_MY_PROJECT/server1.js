@@ -15,7 +15,7 @@ app.use("/static", express.static(path.join(__dirname, "View/static")));
 app.use("/", controller);
 
 // Start the server
-const PORT = 8900;
+const PORT = 9900;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
