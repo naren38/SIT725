@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const http = require('http'); // Required for creating a server for both HTTP and Socket.IO
 const socketIo = require('socket.io');
-const scannerController = require('./socket/Controller/controller'); // Adjusted path for the scannerController
+const scannerController = require('./Controller/controller'); // Adjusted path for the scannerController
 
 const app = express();
 const server = http.createServer(app); // Create a server instance for Express and Socket.IO
