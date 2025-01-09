@@ -7,7 +7,7 @@ const scannerController = require('./controllers/scannerController'); // Control
 const app = express();
 const server = http.createServer(app); // Create a server for both HTTP and Socket.IO
 const io = socketIo(server); // Attach Socket.IO to the server
-const PORT = 9900;
+const PORT = 9080;
 
 // Middleware to parse JSON and serve static files
 app.use(express.json()); // Parse JSON request bodies
