@@ -1,4 +1,4 @@
-const { scanVulnerabilities } = require('../Model/vulnerabilityModel'); // Import the scan logic
+const { scanVulnerabilities } = require('../Model/vulnerabilityModel'); // Import the model
 
 module.exports = {
   scan: (req, res) => {
@@ -6,7 +6,7 @@ module.exports = {
     if (!url) {
       return res.status(400).json({ error: 'URL is required' });
     }
-    const results = scanVulnerabilities(url); // Perform vulnerability scan
-    res.json({ message: `Scanning the URL: ${url}`, results }); // Return scan results
+    const results = scanVulnerabilities(url); // Scan vulnerabilities
+    res.json({ message: `Scanning the URL: ${url}`, results }); // Send results as JSON
   },
 };
