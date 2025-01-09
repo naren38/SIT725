@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Results</title>
+</head>
+<body>
+    <h1>Scan Results</h1>
+    <p>Scanned URL: <strong><%= url %></strong></p>
+    <ul>
+        <li>Open Redirect Vulnerability: <%= results.openRedirect ? "Found" : "Not Found" %></li>
+    </ul>
+    <a href="/">Scan another URL</a>
+</body>
+</html>
